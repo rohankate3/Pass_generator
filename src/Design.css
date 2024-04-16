@@ -1,0 +1,78 @@
+
+*{
+    background-color: #A1C398;
+    color: black;
+    font-size: 30px;
+
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='checkbox']
+{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 20px;
+    width:20px
+    
+}
+
+input[type='range'] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    margin-left: 200px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #9b5d48;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type='range']::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type='range']::-webkit-slider-runnable-track {
+    background: #cea294; /* Set track color to black */
+    height: 20px; /* Adjust track height */
+    border-radius: 8px; /* Adjust track border radius */
+}
+
+.check
+{
+   
+    margin-left: 350px;
+}
+
+#Textfield{
+    
+    width: 750px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+button{
+    background-color: #FA7070;
+    height: 60px;
+    width: 90px;
+    border-radius: 9px;
+    border: 2px solid black;
+}
